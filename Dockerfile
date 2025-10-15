@@ -11,7 +11,7 @@ COPY . /var/www/html/
 # FROM php:8.2-fpm-alpine
 
 #RUN apk update && apk add --no-cache nginx supervisor && \
-    docker-php-ext-install mysqli
+    #docker-php-ext-install mysqli
 
 #COPY . /var/www/html/
 
